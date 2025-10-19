@@ -116,7 +116,7 @@ class DetectRed:
 
         # Set upper and lower bounds for colour detection, this is in HSV
         lower_red = np.array([0,50,50])
-        upper_red = np.array([30,255,255])
+        upper_red = np.array([10,255,255])
 
         lower_red2 = np.array([150,100,100])
         upper_red2 = np.array([180,255,255])
